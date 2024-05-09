@@ -43,7 +43,7 @@ class Sheep:
 class Wolf:
     def __init__(self , name):
         self.name = name
-        self.energy = 100
+        self.energy = 150
         self.position = firstonmap()
         print(self.name + ' first on ' + str(self.position))
 
